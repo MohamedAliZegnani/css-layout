@@ -1,0 +1,291 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    background: #fff;
+    position: fixed;
+    background: #fff;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    margin-left: 0px;
+}
+nav img{
+    width: 20%;
+}
+.is-current{
+    color: #00b39b;
+}
+.PI{ 
+    font-size: 2.125rem;
+    color: #00b39b;
+    font-weight: 200;
+}
+.paragraphe{ 
+    margin-left: 200px;
+    margin-right: 200px;
+   margin-top: 50px;
+    display:flex;
+  margin-bottom:50px; ;
+}
+.paragraphe p{ 
+    width: 80%;
+    text-align: left;
+    margin: 10px;
+    size: large;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #747474;
+    padding:0;
+    margin: 0;
+    
+}
+nav div a {
+    margin: 10px;
+    text-decoration: none;
+    color: gray;
+}
+nav div a:hover{
+    color: #24bda9;
+}
+.lead_logo{
+    margin:auto;
+    display: flex;
+   justify-content: center;
+   padding-top: 90px;
+
+   }
+   .PI{
+    padding-top: 10px;
+   text-align: center;
+   font-weight:lighter;
+   }
+   section{
+    margin-top: 60px;
+    display:flex;
+    align-items:flex-start;
+ 
+}
+.style-select{
+    border: none;
+}
+
+
+#patients{
+ background-color:#00b39b;
+}
+.pati{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px;
+    color: #fff;
+    padding: 0px;
+    font-size: 1.625em;
+    
+}
+
+.tex{
+
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+  
+    color: #fff;
+}
+#For-doctors{
+    background-color: #3d83df;
+}
+#For-clinics{
+    background-color: #1b2734;
+
+}
+.display img{
+    
+    font-size: 16px;
+    margin: 0px;
+
+}
+
+.display>div{
+    border-radius: 10px;
+    padding: 2em 2em 0;
+    height: 345px;
+    
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    width: 80%;
+    margin: auto;
+    font: 16px;
+
+}
+select{
+    background-color: transparent;
+    color: white;
+  text-decoration: underline;
+    border: none;
+ 
+
+}
+option{
+    color: black    ;
+}
+.btn{
+    display: inline-block;
+    vertical-align:middle;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em;
+    background: #3d83df;
+    font-family: Roboto,Arial,sans-serif;
+    line-height: 1em;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .04em;
+    font-size: .75rem;
+    text-align: centEr;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    transition: all .2s ease 0s;
+    margin-left: 110px;
+}
+ul{
+   
+    display: flex;
+   flex-wrap: wrap;
+    list-style:none;
+    align-content: space-between;
+
+
+}
+#delt{
+    display: flex;
+    align-content: center;
+    
+}
+.brands-section__inner{
+  width: 80%;
+  margin: auto;
+  padding-left: 150px;
+  padding-top: 70px;
+  justify-content: space-evenly;
+}
+#fff{font-weight: 300px;
+width: 50%;
+margin-left: 220px;
+margin-top: 2em;
+}
+#fff img{
+    margin-top: 2em;
+}
+#the-world{
+    font-weight: 300;
+display: flex;
+justify-content: center;
+background: #e5faf8;
+background-image: linear-gradient(
+-45deg
+,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));
+padding: 1.875em 0 .625em;
+overflow: hidden;
+margin: 3.125rem auto 5.5rem;
+
+}
+#non{   
+    height: 300px;
+background-color: white;
+
+width:90% ;
+text-align: center;
+ padding: 15px;
+font-size:.8125em;
+ border-radius: 5px;
+ margin-bottom: 20px;
+}
+.booox{    
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 150px;
+}
+.azert{
+margin-top: 20px;
+margin-right:30px ;
+}
+#non h1{
+    font-weight: 300;
+    font-size: 1.8461538462em;
+    color: #89c9c0;
+    margin: .5em 0
+}
+#non p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.delt{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+.delt h1{
+    color: #00b39b;
+    font-size: 2.1428571429em;
+    text-align: center;
+    font-weight: 300;
+}
+.delt p{
+    text-align: center;
+}
+.tap{
+    display: flex;
+    flex-wrap:wrap ;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.card-card-2{
+display:inline;
+margin: 10px;
+width: 29%;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+border-radius: 10px;
+padding: 10px;
+}
+.card-card-2 img{
+    width: 100%;
+    border-radius: 10px;
+}
+.warsaw{
+    display: flex;
+    justify-content: space-between;
+}
+.final{
+    display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}
+#final-button{
+    border: none;
+    background: #3d83df;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 5px;
+
+}
+footer{
+    text-align: center;
+}
+h6{
+    font-size: 2.1428571429em;
+    color: #333;
+    margin-bottom: .75em;
+    font-weight: 300;
+}
